@@ -1,0 +1,6 @@
+{
+  "name": "matching_agent",
+  "version": "1.0.0",
+  "temperature": 0,
+  "template": "Compare parsed resume data with the hiring specification and RAG context. Return JSON only."
+}

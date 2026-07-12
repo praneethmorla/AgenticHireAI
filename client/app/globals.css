@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f9fb;
+  color: #1a2433;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+  border: 1px solid #d7dee8;
+  font-size: 12px;
+  font-weight: 600;
+}

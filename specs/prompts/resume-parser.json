@@ -1,0 +1,16 @@
+{
+  "name": "resume_parser",
+  "version": "1.0.0",
+  "temperature": 0,
+  "output_schema": {
+    "success": "boolean",
+    "data": {
+      "name": "string",
+      "skills": "string[]",
+      "experience": "number",
+      "education": "string",
+      "projects": "string[]"
+    }
+  },
+  "template": "Extract candidate profile fields from the resume text and return JSON only."
+}

@@ -1,0 +1,7 @@
+{
+  "weights": {
+    "profile_completeness": 30,
+    "skills_match": 40,
+    "experience_match": 30
+  }
+}
