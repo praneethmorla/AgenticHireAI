@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: agentic-hire-backend
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        value: mongodb+srv://praneetha23bce20106_db_user:InSYicixmJKOFIGh@cluster0.u57ptvz.mongodb.net/agentichire?appName=Cluster0
+      - key: JWT_SECRET
+        value: local-development-secret-change-me
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: QDRANT_URL
+        value: http://localhost:6333
